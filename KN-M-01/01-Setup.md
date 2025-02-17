@@ -30,3 +30,7 @@ This command changes the security settings in the mongod.conf file. The change e
 ```
 The complicated date format is neccessary incase the data gets imported into another database. If it isnt done like this, the other database will mistake the date as a string. Its important to have an universal format that is the same everywhere to prevent errors or handling the data wrong.
 
+# C.) First Steps Shell
+<img width="237" alt="image" src="https://github.com/user-attachments/assets/0ff30007-9027-40a6-93e2-6145f156e69f" />
+
+
