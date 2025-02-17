@@ -13,4 +13,20 @@ This command changes the security settings in the mongod.conf file. The change e
 
 # B.) First Steps
 <img width="435" alt="image" src="https://github.com/user-attachments/assets/7b05379c-20b4-4063-9728-4d27412fc878" />
+<img width="535" alt="image" src="https://github.com/user-attachments/assets/51f62f35-934a-4f3f-868f-decda0155de1" />
+
+```
+[{
+  "_id": {
+    "$oid": "67b30fb5688b5d0cbffc2cc3"
+  },
+  "name": "Max Mustermann",
+  "age": 34,
+  "birthdate": {
+    "$date": "2002-05-01T00:00:00.000Z"
+  },
+  "height": 120.25
+}]
+```
+The complicated date format is neccessary incase the data gets imported into another database. If it isnt done like this, the other database will mistake the date as a string. Its important to have an universal format that is the same everywhere to prevent errors or handling the data wrong.
 
