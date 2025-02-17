@@ -11,3 +11,6 @@ This command changes the security settings in the mongod.conf file. The change e
 
 <img width="270" alt="image" src="https://github.com/user-attachments/assets/4fb2702b-ce58-4686-a5ff-b4cd92140bd9" />
 
+# B.) First Steps
+<img width="435" alt="image" src="https://github.com/user-attachments/assets/7b05379c-20b4-4063-9728-4d27412fc878" />
+
