@@ -1,5 +1,5 @@
 # A.) Installation
-<img width="725" alt="image" src="https://github.com/user-attachments/assets/c8542d26-ace6-470f-9d2a-ddd744f6b99a" />
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/c8542d26-ace6-470f-9d2a-ddd744f6b99a" />
 
 The authSource=admin parameter specifies which database to authenticate to when connecting to the database. You are authenticating against the admin database because your user was created there.
 
@@ -9,4 +9,5 @@ This command replaces the first IP with the second IP in the mondog.conf file. T
 `sudo sed -i 's/#security:/security:\n  authorization: enabled/g' /etc/mongod.conf` <br>
 This command changes the security settings in the mongod.conf file. The change enables the authorization and increases the security.
 
+<img width="270" alt="image" src="https://github.com/user-attachments/assets/4fb2702b-ce58-4686-a5ff-b4cd92140bd9" />
 
