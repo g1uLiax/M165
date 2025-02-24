@@ -32,5 +32,7 @@ The complicated date format is neccessary incase the data gets imported into ano
 
 # C.) First Steps Shell
 <img width="237" alt="image" src="https://github.com/user-attachments/assets/0ff30007-9027-40a6-93e2-6145f156e69f" />
+<img width="237" alt="image" src="https://github.com/user-attachments/assets/1426e893-30d2-47a0-9126-c9d306a6aa06" />
+
 
 
