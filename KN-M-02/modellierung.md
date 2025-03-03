@@ -3,6 +3,8 @@
 One flight has two airports, one is the start and one the destination. An airport can have many flights. A flight can have one pilot and one airplane, a pilot and an airplane can have many flights. An airplane also has a home airport.
 
 # Logisches Datenmodell mongoDB
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/04d3c7f3-1f2c-4d30-ac3a-b349f418f45b" /><br>
+
 
 # Anwendung des Schemas
 
