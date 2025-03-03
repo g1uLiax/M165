@@ -1,8 +1,8 @@
 const { MongoClient } = require('mongodb');
 
 async function run() {
-    const uri = "mongodb://admin:1234@35.175.69.55:27017/?authSource=admin&readPreference=primary&ssl=false";
-    const client = new MongoClient(uri);
+    const url = "mongodb://admin:1234@35.175.69.55:27017/?authSource=admin&readPreference=primary&ssl=false";
+    const client = new MongoClient(url);
     await client.connect();
 
     const db = client.db("flightmanagement");
