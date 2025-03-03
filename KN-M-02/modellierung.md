@@ -11,4 +11,6 @@ Home airplanes are not neccessarily airplanes that are on the airport right now,
 
 
 # Anwendung des Schemas
+<img width="220" alt="image" src="https://github.com/user-attachments/assets/67ed8974-5f8a-4424-a381-19333d97fb0e" />
+
 
