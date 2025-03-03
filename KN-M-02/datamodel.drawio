@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.16" pages="2">
+  <diagram name="Page-1" id="MyKNDprmuaOeAXlZrdFX">
+    <mxGraphModel dx="1018" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xjHl75YICVR8A8sxPmvV-1" value="Flight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xjHl75YICVR8A8sxPmvV-2" value="Pilot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xjHl75YICVR8A8sxPmvV-3" value="Airport" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xjHl75YICVR8A8sxPmvV-4" value="Airplane" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xjHl75YICVR8A8sxPmvV-5" value="airport has many flights&lt;div&gt;flight has two airports&lt;/div&gt;" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="xjHl75YICVR8A8sxPmvV-3" target="xjHl75YICVR8A8sxPmvV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="600" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xjHl75YICVR8A8sxPmvV-6" value="M" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="xjHl75YICVR8A8sxPmvV-5">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xjHl75YICVR8A8sxPmvV-7" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="xjHl75YICVR8A8sxPmvV-5">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xjHl75YICVR8A8sxPmvV-9" value="m&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1&lt;/div&gt;" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="xjHl75YICVR8A8sxPmvV-2" target="xjHl75YICVR8A8sxPmvV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="410" as="sourcePoint" />
+            <mxPoint x="608.4615384615386" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xjHl75YICVR8A8sxPmvV-10" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;m&lt;/span&gt;&lt;/div&gt;" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="xjHl75YICVR8A8sxPmvV-4" target="xjHl75YICVR8A8sxPmvV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="380" as="sourcePoint" />
+            <mxPoint x="550" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xjHl75YICVR8A8sxPmvV-12" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;homeairport&lt;/div&gt;&lt;div&gt;m&lt;/div&gt;" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="xjHl75YICVR8A8sxPmvV-4" target="xjHl75YICVR8A8sxPmvV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="390" as="sourcePoint" />
+            <mxPoint x="510" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Q-YqZBFtuc1s5wRBYxge" name="Page-2">
+    <mxGraphModel dx="1131" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FVvL4lh_QYOomwSnUUwI-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Airport&lt;/h1&gt;&lt;div&gt;- IATA aiport&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- city CHAR&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- country CHAR&lt;/div&gt;&lt;div&gt;- capacity INT&lt;/div&gt;&lt;div&gt;- homeplanes: Array&amp;lt;Airplane&amp;gt;:&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="580" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FVvL4lh_QYOomwSnUUwI-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Airplane&lt;/h1&gt;&lt;p&gt;- id_airplane&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- capacity INT&lt;br&gt;- model CHAR&lt;br&gt;- homeairport: IATA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="880" y="580" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FVvL4lh_QYOomwSnUUwI-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Flight&lt;/h1&gt;&lt;p&gt;- id_flight&lt;br&gt;- depart DATE&lt;br&gt;- arrival DATE&lt;br&gt;- start: IATA&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- destination: IATA&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- airplane: id_airplane&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- pilot: Pilot&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="620" y="580" width="180" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="FVvL4lh_QYOomwSnUUwI-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Pilot&lt;/h1&gt;&lt;p&gt;- id_pilot&lt;br&gt;- firstname CHAR&lt;br&gt;- lastname CHAR&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="580" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FVvL4lh_QYOomwSnUUwI-16" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Pilot&lt;/h2&gt;&lt;p&gt;- id_pilot&lt;br&gt;- firstname CHAR&lt;br&gt;- lastname CHAR&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="630" y="740" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FVvL4lh_QYOomwSnUUwI-18" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Airplane&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- capacity INT&lt;br&gt;- model CHAR&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="710" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
