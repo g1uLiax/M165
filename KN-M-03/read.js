@@ -9,19 +9,19 @@ async function readData() {
 
   // all pilots whose name begins with M
   const pilots = await db.collection("pilot").find({ lastname: /^M/ }, { projection: { _id: 0, firstname: 1, lastname: 1 } }).toArray();
-  console.log("Pilots (Regex Suche):", pilots);
+  console.log("pilots beginning with M:", pilots);
 
   // all airplanes with capacity over 200 and airbus in the model name
   const airplanes = await db.collection("airplane").find({ $and: [{ capacity: { $gt: 200 } }, { model: /Airbus/ }] }).toArray();
-  console.log("Airplanes (UND-Verknüpfung):", airplanes);
+  console.log("all pilots whose name begins with M:", airplanes);
 
   // all airports in la or ny
   const airports = await db.collection("airport").find({ $or: [{ city: "New York" }, { city: "Los Angeles" }] }).toArray();
-  console.log("Airports (ODER-Verknüpfung):", airports);
+  console.log("airplanes, capacity over 200 and airbus model:", airports);
 
   // all flights starting after first june
   const flights = await db.collection("flight").find({ depart: { $gt: new Date("2025-06-01") } }, { projection: { _id: 1, start: 1, destination: 1, depart: 1 } }).toArray();
-  console.log("Flights (DateTime Filter & Projektion mit _id):", flights);
+  console.log("flights starting after first june:", flights);
 
   await client.close();
 }
