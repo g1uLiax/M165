@@ -53,9 +53,15 @@ CREATE
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/cd20dc9b-8978-4069-8928-ec7ffa80103d" />
 
 ## D.)
-<img width="981" alt="image" src="https://github.com/user-attachments/assets/69469b8d-62b8-4fd9-82d0-da690485d88d" />
-<img width="983" alt="image" src="https://github.com/user-attachments/assets/9758d26e-58f1-42ab-be5b-b2c0981d5d57" />
-<img width="983" alt="image" src="https://github.com/user-attachments/assets/a8e1b537-fc59-4e4e-91b3-c3125ca87297" />
+<img width="983" alt="image" src="https://github.com/user-attachments/assets/69469b8d-62b8-4fd9-82d0-da690485d88d" /><br>
+Ein Flug wurde mit einem kleineren Flugzeug durchgeführt. Nach einer Evaluation wird entschieden, das Flugzeug durch ein größeres Modell zu ersetzen. Dabei soll das alte Flugzeug abgetrennt und eine neue Beziehung mit dem neuen Flugzeug hergestellt werden.<br>
+<img width="983" alt="image" src="https://github.com/user-attachments/assets/9758d26e-58f1-42ab-be5b-b2c0981d5d57" /><br>
+Pilotin „Alice Smith“ wurde zur Chef-Pilotin befördert. Diese Änderung soll am bestehenden Knoten vorgenommen werden. Wir ergänzen ein neues Property rank.<br>
+<img width="983" alt="image" src="https://github.com/user-attachments/assets/a8e1b537-fc59-4e4e-91b3-c3125ca87297" /><br>
+Der Flughafen „LHR“ wurde in „Heathrow London“ umbenannt, und zur Korrektur wird auch das Country-Property präzisiert zu „United Kingdom“.<br>
 
-
-
+## E.)
+<img width="986" alt="image" src="https://github.com/user-attachments/assets/713acfc6-e4b7-471e-b474-2d71a3d1c22f" />
+Was passiert:
+- Jeder Pilot bekommt ein neues Property status.
+- Es wird dynamisch je nach Nachnamen gesetzt – direkt im Query.
