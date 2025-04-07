@@ -52,4 +52,10 @@ CREATE
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/e63ea576-1e37-4d9a-b7e7-69404e5f9aa9" />
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/cd20dc9b-8978-4069-8928-ec7ffa80103d" />
 
+## D.)
+<img width="981" alt="image" src="https://github.com/user-attachments/assets/69469b8d-62b8-4fd9-82d0-da690485d88d" />
+<img width="983" alt="image" src="https://github.com/user-attachments/assets/9758d26e-58f1-42ab-be5b-b2c0981d5d57" />
+<img width="983" alt="image" src="https://github.com/user-attachments/assets/a8e1b537-fc59-4e4e-91b3-c3125ca87297" />
+
+
 
