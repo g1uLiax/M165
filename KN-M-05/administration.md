@@ -21,3 +21,11 @@
 <img width="437" alt="image" src="https://github.com/user-attachments/assets/775ada1f-7480-44d0-8e1b-75b322d0d5b6" /><br>
 <img width="860" alt="image" src="https://github.com/user-attachments/assets/dbb24645-11ed-47ca-89ad-1ce35606bc5c" /><br>
 
+## C.)
+### Replication
+
+### Sharding
+
+Replication copies the same data to multiple servers, which helps with availability and protects against data loss. It also boosts read performance. However, replication doesn't help if your database gets too large to fit on one server. Sharding works differently, it splits the data into parts and stores them on different servers. This allows the system to handle more data and can make queries faster. But sharding needs to be set up carefully. Replication is great for keeping data safe and the system running, but sharding is better when you need to scale out.
+
+For our company’s search platform that processes search queries, I suggest using sharding. It can handle large amounts of query results efficiently and offers better performance as the system grows.
