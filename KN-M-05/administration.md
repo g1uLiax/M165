@@ -13,7 +13,9 @@
 <img width="338" alt="image" src="https://github.com/user-attachments/assets/bd973418-7692-4ff6-a7db-8584c1d49f77" /><br>
 
 ## B.)
+### dump with snapshot
 <img width="957" alt="image" src="https://github.com/user-attachments/assets/86321df9-3692-4718-87fc-7cfd81409226" /><br>
 <img width="152" alt="image" src="https://github.com/user-attachments/assets/d68679f6-0bd5-4be2-bb54-d24023dde42c" /><br>
-on step 3
+### dump with database tools
+<img width="859" alt="image" src="https://github.com/user-attachments/assets/735483d3-3f49-48f7-bcf9-c8b70f3d00c9" /><br>
 
