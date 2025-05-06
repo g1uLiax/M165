@@ -4,3 +4,6 @@
 
 ## B.)
 <img width="742" alt="image" src="https://github.com/user-attachments/assets/6ac31054-71ef-48a2-afd5-778e088e8c3b" /><br>
+
+## C.)
+look script.sql
